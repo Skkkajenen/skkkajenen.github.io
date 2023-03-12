@@ -5,7 +5,7 @@ categories: [HTB, easy]
 tags: [webshell,php,websockets,sqli blind, htb,linux]     # TAG names should always be lowercase
 #image: /htb.jpg
 #img_path: /photos/2023-01-02-Soccer-WriteUp/
-published: true
+published: false
 ---
 
 ***Soccer*** es una máquina *Linux* donde primeramente conseguiremos explotar el servicio *Tiny File Manager* subiendo una ***webshell*** en *PHP*. Siendo ***www-data*** descubriremos un **subdominio** que utiliza ***websockets***. Explotaremos un ***SQLI Blind Time Based*** para convertirnos en el usuario ***player***. Finalmente, nos ayudaremos de las herramientas ***dstat*** y ***doas*** para escalar privilegios y convertirnos en ***root***.
