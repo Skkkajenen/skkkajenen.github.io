@@ -29,6 +29,16 @@ Then clone it to your local machine and run:
 ```
 $ bundle
 ```
+## Deploying locally
+```terminal
+bundle exec jekyll s -l
+```
+* `-l` means LiveReload => After save changes the site is regenerated and the browser refreshed
+* `--drafts` Render posts in the _drafts folder
+* `--unpublished` Render posts that were marked as unpublished
+* `--help` Show all options available
+
+The content can be seen at [Local][localhost]
 
 ## Usage
 
@@ -43,3 +53,4 @@ This work is published under [MIT][mit] License.
 [use-template]: https://github.com/cotes2020/chirpy-starter/generate
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/Skkkajenen/skkkajenen.github.io/LICENSE
+[localhost]: http://127.0.0.1:4000/
