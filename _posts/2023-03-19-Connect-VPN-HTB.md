@@ -35,7 +35,7 @@ Damos click en el grupo que nos interese, en este caso de ejemplo elegimos **Sta
 ![Paso_3](3.png)
 
 * OpenVPN ⭐️
-: Esta será la opción elegida. Requiere (como hemos adelantado) un sistema Linux corriendo sobre una máquina virtual en la que necesitaremos tener instalada una versión de **OpenVPN** (OpenSource). Puedes visitar su web [aquí](openvpn)
+: Esta será la opción elegida. Requiere (como hemos adelantado) un sistema Linux corriendo sobre una máquina virtual en la que necesitaremos tener instalada una versión de **OpenVPN** (OpenSource). Puedes visitar su web [aquí][openvpn]
 
 * Pwnbox
 : Es un entorno de Parrot Linux ejecutado desde la propia web de [HTB][htb] con la que poder desarrollar el laboratorio. Tiene un **uso limitado** para los usuarios **Free** y hasta 24h de uso para los que son **VIP**
