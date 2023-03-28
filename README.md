@@ -44,6 +44,8 @@ The content can be seen at [Local][localhost]
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
+<script src="https://tryhackme.com/badge/1603402"></script>
+
 ## License
 
 This work is published under [MIT][mit] License.
