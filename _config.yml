@@ -81,10 +81,11 @@ theme_mode:   # [light|dark]
 #
 # e.g. 'https://cdn.com'
 # img_cdn: 'https://chirpy-img.netlify.app'   # Original
-img_cdn: 'https://assets.skkkajenen.com'
+# img_cdn: 'https://assets.skkkajenen.com'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/logos/panda_hacker_300x300.png'
+# avatar: '/logos/panda_hacker_300x300.png'
+avatar: '/assets/img/logos/panda_hacker_300x300.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
