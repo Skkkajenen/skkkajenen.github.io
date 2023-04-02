@@ -6,7 +6,7 @@ categories: [Hacking, Writeups]  # Categoría principal , categoría secundaria
 tags: [htb,windows,john,password-cracking,winrm,startingpoint]     # TAG names should always be lowercase
 image: /htb_responder.png   # Mantener la proporción 1.91 : 1
 img_path: /posts/responder
-published: false
+published: true
 ---
 
 # Introducción
