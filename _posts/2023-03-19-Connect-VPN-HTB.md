@@ -3,7 +3,7 @@ title: Cómo conectar con HTB (VPN)
 author: skkkajenen
 date: 2023-03-19 21:30:00 +0100
 categories: [Hacking, Varios]  # Categoría principal , categoría secundaria
-tags: [htb,vpn,startingpoing]     # TAG names should always be lowercase
+tags: [htb,vpn,startingpoint]     # TAG names should always be lowercase
 image: /htb_connect_vpn_title.png   # Mantener la proporción 1.91 : 1
 img_path: /posts/connect_vpn
 published: true
