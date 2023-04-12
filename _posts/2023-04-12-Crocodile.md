@@ -9,7 +9,7 @@ img_path: /posts/crocodile
 published: true
 ---
 
-# Introducción
+## Introducción
 
 Seguimos con la serie de **Starting Point** de [HackTheBox][htb]. En esta máquina **Linux** combinaremos la exploración a través de dos servicios (**FTP** y **WEB**) para acabar obteniendo credenciales y así acceder a un panel a priori no visible. Aquí se empieza a uscar el desarrollar habilidades de **OSINT**.
 
@@ -170,7 +170,7 @@ A priori, podemos pensar que se trata de usuarios válidos a nivel de sistema y 
 
 ## Reconocimiento del Puerto 80 - WEB
 
-Entramos en la web desde el navegador (http://10.129.143.21). Vemos una landing page que a priori no parece aportar información relevante
+Entramos en la web desde el navegador `http://10.129.143.21`. Vemos una landing page que a priori no parece aportar información relevante
 
 Con `whatweb` vemos la información que obtenemos:
 
