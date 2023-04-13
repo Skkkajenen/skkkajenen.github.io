@@ -13,7 +13,7 @@ published: true
 
 Seguimos con la serie de **Starting Point** de [HackTheBox][htb]. En esta máquina **Linux** combinaremos la exploración a través de dos servicios (**FTP** y **WEB**) para acabar obteniendo credenciales y así acceder a un panel a priori no visible. Aquí se empieza a uscar el desarrollar habilidades de **OSINT**.
 
-En estas máquinas el nivel de detalle del presente **write-up** es mayor ya que se pretende dar un **'paso a paso'** para principiantes más que una simple guía para un usuario algo avanzado. Además, durante la explotación de la máquina tendremos que ir respondiendo a preguntas que ayudarán en el camino hasta la consecución. En este caso son **7** las preguntas a responder. y éstas se añadirán al final del **write-up**.
+En estas máquinas el nivel de detalle del presente **write-up** es mayor ya que se pretende dar un **'paso a paso'** para principiantes más que una simple guía para un usuario algo avanzado. Además, durante la explotación de la máquina tendremos que ir respondiendo a preguntas que ayudarán en el camino hasta la consecución. En este caso son **9** las preguntas a responder. y éstas se añadirán al final del **write-up**.
 
 <div>
     <img src="https://img.shields.io/badge/Sistema-Linux-orange" alt="Sistema-Linux-orange" />
