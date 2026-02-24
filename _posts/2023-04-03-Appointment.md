@@ -1,17 +1,17 @@
 ---
-title: Apointment - Starting Point
+title: Appointment - Starting Point
 author: skkkajenen
 date: 2023-04-03 20:00:00 +0200
 categories: [Hacking, Writeups]  # Categoría principal , categoría secundaria
 tags: [htb,linux,startingpoint,sql,sql-injection,php]     # TAG names should always be lowercase
 image: /htb_appointment.png   # Mantener la proporción 1.91 : 1
 img_path: /posts/appointment
-published: false
+published: true
 ---
 
 # Introducción
 
-**Appointment** es la quinta de las máquinas de **Starting Point** en [HackTheBox][htb] y la primera del segundo bloque que se nos habilita tras haber completado con éxito las primeras cuatro máquinas. Es una máquina **Linux** en la que está corriendo el servicio de **Redis** el cual tendremos que comprometer para llegar a obtener la **flag**. Además, durante la explotación de la máquina tendremos que ir respondiendo a preguntas que ayudarán en el camino hasta la consecución. En este caso son **10** las preguntas a responder.
+**Appointment** es la quinta de las máquinas de **Starting Point** en [HackTheBox][htb] y la primera del segundo bloque que se nos habilita tras haber completado con éxito las primeras cuatro máquinas. Es una máquina **Linux** en la que está corriendo un servidor **Apache** con un formulario de login vulnerable a **SQL Injection** el cual tendremos que comprometer para llegar a obtener la **flag**. Además, durante la explotación de la máquina tendremos que ir respondiendo a preguntas que ayudarán en el camino hasta la consecución. En este caso son **10** las preguntas a responder.
 
 <div>
     <img src="https://img.shields.io/badge/Sistema-Linux-orange" alt="Sistema-Linux-orange" />
