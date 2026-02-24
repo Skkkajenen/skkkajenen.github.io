@@ -1,17 +1,17 @@
 ---
-title: Apointment - Starting Point
+title: Appointment - Starting Point
 author: skkkajenen
 date: 2023-04-03 20:00:00 +0200
 categories: [Hacking, Writeups]  # Categoría principal , categoría secundaria
 tags: [htb,linux,startingpoint,sql,sql-injection,php]     # TAG names should always be lowercase
 image: /htb_appointment.png   # Mantener la proporción 1.91 : 1
 img_path: /posts/appointment
-published: false
+published: true
 ---
 
 # Introducción
 
-**Appointment** es la quinta de las máquinas de **Starting Point** en [HackTheBox][htb] y la primera del segundo bloque que se nos habilita tras haber completado con éxito las primeras cuatro máquinas. Es una máquina **Linux** en la que está corriendo el servicio de **Redis** el cual tendremos que comprometer para llegar a obtener la **flag**. Además, durante la explotación de la máquina tendremos que ir respondiendo a preguntas que ayudarán en el camino hasta la consecución. En este caso son **10** las preguntas a responder.
+**Appointment** es la quinta de las máquinas de **Starting Point** en [HackTheBox][htb] y la primera del segundo bloque que se nos habilita tras haber completado con éxito las primeras cuatro máquinas. Es una máquina **Linux** en la que está corriendo un servidor web con un formulario de **login** vulnerable a **inyección SQL**. Explotaremos esta vulnerabilidad para autenticarnos sin conocer las credenciales y así obtener la **flag**. Además, durante la explotación de la máquina tendremos que ir respondiendo a preguntas que ayudarán en el camino hasta la consecución. En este caso son **11** las preguntas a responder.
 
 <div>
     <img src="https://img.shields.io/badge/Sistema-Linux-orange" alt="Sistema-Linux-orange" />
@@ -54,7 +54,7 @@ De esta manera en la Polybar superior tendremos siempre bien referenciada la *m�
 Comprobamos que efectivamente tenemos visible la *máquina víctima* lanzando un `ping`sobre ella. Con el parámetro `-c 1` le indicamos que tan solo haga un ping. No es necesario más.
 
 ~~~bash
-ping -c 1 10.129.61.206
+ping -c 1 10.129.29.33
 ~~~
 
 Como resultado obtenemos lo siguiente de lo cual destacatemos el TTL y el número de paquetes enviados / recibidos:
