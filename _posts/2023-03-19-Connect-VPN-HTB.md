@@ -4,6 +4,7 @@ author: skkkajenen
 date: 2023-03-19 21:30:00 +0100
 categories: [Hacking, Varios]  # Categoría principal , categoría secundaria
 tags: [htb,vpn,startingpoint]     # TAG names should always be lowercase
+description: Guía paso a paso para conectarse a la VPN de HackTheBox usando OpenVPN desde Linux. Imprescindible antes de empezar cualquier máquina en HTB.
 image: /htb_connect_vpn_title.png   # Mantener la proporción 1.91 : 1
 img_path: /posts/connect_vpn
 published: true

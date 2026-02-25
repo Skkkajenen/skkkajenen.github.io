@@ -4,6 +4,7 @@ author: skkkajenen
 date: 2023-04-01 22:00:00 +0200
 categories: [Hacking, Writeups]  # Categoría principal , categoría secundaria
 tags: [htb,windows,john,password-cracking,winrm,startingpoint]     # TAG names should always be lowercase
+description: Writeup de Responder en HTB Starting Point. Cubre LFI, captura de hashes NTLM, cracking con John the Ripper y acceso remoto con WinRM en Windows.
 image: /htb_responder.png   # Mantener la proporción 1.91 : 1
 img_path: /posts/responder
 published: true

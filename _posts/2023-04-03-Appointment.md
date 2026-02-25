@@ -4,6 +4,7 @@ author: skkkajenen
 date: 2023-04-03 20:00:00 +0200
 categories: [Hacking, Writeups]  # Categoría principal , categoría secundaria
 tags: [htb,linux,startingpoint,sql,sql-injection,php]     # TAG names should always be lowercase
+description: Writeup de Appointment en HackTheBox Starting Point. Explota una vulnerabilidad de SQL Injection en un formulario de login con Apache en Linux.
 image: /htb_appointment.png   # Mantener la proporción 1.91 : 1
 img_path: /posts/appointment
 published: true

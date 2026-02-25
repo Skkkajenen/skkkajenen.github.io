@@ -4,6 +4,7 @@ author: skkkajenen
 date: 2023-04-12 20:00:00 +0200
 categories: [Hacking, Writeups]  # Categoría principal , categoría secundaria
 tags: [htb,linux,startingpoint,ftp,apache]     # TAG names should always be lowercase
+description: Writeup de Crocodile en HackTheBox Starting Point. Combina acceso FTP anónimo y un servidor Apache para conseguir acceso como administrador en Linux.
 image: /htb_crocodile.png   # Mantener la proporción 1.91 : 1
 img_path: /posts/crocodile
 published: true
